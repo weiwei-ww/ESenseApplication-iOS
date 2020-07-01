@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED21309224AC96EF0010B0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21309124AC96EF0010B0DD /* AppDelegate.swift */; };
+		ED21309424AC96EF0010B0DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21309324AC96EF0010B0DD /* SceneDelegate.swift */; };
+		ED21309624AC96EF0010B0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21309524AC96EF0010B0DD /* ViewController.swift */; };
+		ED21309924AC96EF0010B0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED21309724AC96EF0010B0DD /* Main.storyboard */; };
+		ED21309B24AC96EF0010B0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED21309A24AC96EF0010B0DD /* Assets.xcassets */; };
+		ED21309E24AC96EF0010B0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED21309C24AC96EF0010B0DD /* LaunchScreen.storyboard */; };
+		ED2130A924AC96EF0010B0DD /* ESense_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2130A824AC96EF0010B0DD /* ESense_ApplicationTests.swift */; };
+		ED2130B424AC96EF0010B0DD /* ESense_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2130B324AC96EF0010B0DD /* ESense_ApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED2130A524AC96EF0010B0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED21308624AC96EF0010B0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED21308D24AC96EF0010B0DD;
+			remoteInfo = "ESense Application";
+		};
+		ED2130B024AC96EF0010B0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED21308624AC96EF0010B0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED21308D24AC96EF0010B0DD;
+			remoteInfo = "ESense Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED21308E24AC96EF0010B0DD /* ESense Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESense Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED21309124AC96EF0010B0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED21309324AC96EF0010B0DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED21309524AC96EF0010B0DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED21309824AC96EF0010B0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED21309A24AC96EF0010B0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED21309D24AC96EF0010B0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED21309F24AC96EF0010B0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2130A424AC96EF0010B0DD /* ESense ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESense ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2130A824AC96EF0010B0DD /* ESense_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESense_ApplicationTests.swift; sourceTree = "<group>"; };
+		ED2130AA24AC96EF0010B0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2130AF24AC96EF0010B0DD /* ESense ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESense ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2130B324AC96EF0010B0DD /* ESense_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESense_ApplicationUITests.swift; sourceTree = "<group>"; };
+		ED2130B524AC96EF0010B0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED21308B24AC96EF0010B0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2130A124AC96EF0010B0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2130AC24AC96EF0010B0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED21308524AC96EF0010B0DD = {
+			isa = PBXGroup;
+			children = (
+				ED21309024AC96EF0010B0DD /* ESense Application */,
+				ED2130A724AC96EF0010B0DD /* ESense ApplicationTests */,
+				ED2130B224AC96EF0010B0DD /* ESense ApplicationUITests */,
+				ED21308F24AC96EF0010B0DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED21308F24AC96EF0010B0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED21308E24AC96EF0010B0DD /* ESense Application.app */,
+				ED2130A424AC96EF0010B0DD /* ESense ApplicationTests.xctest */,
+				ED2130AF24AC96EF0010B0DD /* ESense ApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED21309024AC96EF0010B0DD /* ESense Application */ = {
+			isa = PBXGroup;
+			children = (
+				ED21309124AC96EF0010B0DD /* AppDelegate.swift */,
+				ED21309324AC96EF0010B0DD /* SceneDelegate.swift */,
+				ED21309524AC96EF0010B0DD /* ViewController.swift */,
+				ED21309724AC96EF0010B0DD /* Main.storyboard */,
+				ED21309A24AC96EF0010B0DD /* Assets.xcassets */,
+				ED21309C24AC96EF0010B0DD /* LaunchScreen.storyboard */,
+				ED21309F24AC96EF0010B0DD /* Info.plist */,
+			);
+			path = "ESense Application";
+			sourceTree = "<group>";
+		};
+		ED2130A724AC96EF0010B0DD /* ESense ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2130A824AC96EF0010B0DD /* ESense_ApplicationTests.swift */,
+				ED2130AA24AC96EF0010B0DD /* Info.plist */,
+			);
+			path = "ESense ApplicationTests";
+			sourceTree = "<group>";
+		};
+		ED2130B224AC96EF0010B0DD /* ESense ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2130B324AC96EF0010B0DD /* ESense_ApplicationUITests.swift */,
+				ED2130B524AC96EF0010B0DD /* Info.plist */,
+			);
+			path = "ESense ApplicationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED21308D24AC96EF0010B0DD /* ESense Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2130B824AC96EF0010B0DD /* Build configuration list for PBXNativeTarget "ESense Application" */;
+			buildPhases = (
+				ED21308A24AC96EF0010B0DD /* Sources */,
+				ED21308B24AC96EF0010B0DD /* Frameworks */,
+				ED21308C24AC96EF0010B0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESense Application";
+			productName = "ESense Application";
+			productReference = ED21308E24AC96EF0010B0DD /* ESense Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED2130A324AC96EF0010B0DD /* ESense ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2130BB24AC96EF0010B0DD /* Build configuration list for PBXNativeTarget "ESense ApplicationTests" */;
+			buildPhases = (
+				ED2130A024AC96EF0010B0DD /* Sources */,
+				ED2130A124AC96EF0010B0DD /* Frameworks */,
+				ED2130A224AC96EF0010B0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2130A624AC96EF0010B0DD /* PBXTargetDependency */,
+			);
+			name = "ESense ApplicationTests";
+			productName = "ESense ApplicationTests";
+			productReference = ED2130A424AC96EF0010B0DD /* ESense ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED2130AE24AC96EF0010B0DD /* ESense ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2130BE24AC96EF0010B0DD /* Build configuration list for PBXNativeTarget "ESense ApplicationUITests" */;
+			buildPhases = (
+				ED2130AB24AC96EF0010B0DD /* Sources */,
+				ED2130AC24AC96EF0010B0DD /* Frameworks */,
+				ED2130AD24AC96EF0010B0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2130B124AC96EF0010B0DD /* PBXTargetDependency */,
+			);
+			name = "ESense ApplicationUITests";
+			productName = "ESense ApplicationUITests";
+			productReference = ED2130AF24AC96EF0010B0DD /* ESense ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED21308624AC96EF0010B0DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = smcnus;
+				TargetAttributes = {
+					ED21308D24AC96EF0010B0DD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					ED2130A324AC96EF0010B0DD = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = ED21308D24AC96EF0010B0DD;
+					};
+					ED2130AE24AC96EF0010B0DD = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = ED21308D24AC96EF0010B0DD;
+					};
+				};
+			};
+			buildConfigurationList = ED21308924AC96EF0010B0DD /* Build configuration list for PBXProject "ESense Application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED21308524AC96EF0010B0DD;
+			productRefGroup = ED21308F24AC96EF0010B0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED21308D24AC96EF0010B0DD /* ESense Application */,
+				ED2130A324AC96EF0010B0DD /* ESense ApplicationTests */,
+				ED2130AE24AC96EF0010B0DD /* ESense ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED21308C24AC96EF0010B0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED21309E24AC96EF0010B0DD /* LaunchScreen.storyboard in Resources */,
+				ED21309B24AC96EF0010B0DD /* Assets.xcassets in Resources */,
+				ED21309924AC96EF0010B0DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2130A224AC96EF0010B0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2130AD24AC96EF0010B0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED21308A24AC96EF0010B0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED21309624AC96EF0010B0DD /* ViewController.swift in Sources */,
+				ED21309224AC96EF0010B0DD /* AppDelegate.swift in Sources */,
+				ED21309424AC96EF0010B0DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2130A024AC96EF0010B0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2130A924AC96EF0010B0DD /* ESense_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2130AB24AC96EF0010B0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2130B424AC96EF0010B0DD /* ESense_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED2130A624AC96EF0010B0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED21308D24AC96EF0010B0DD /* ESense Application */;
+			targetProxy = ED2130A524AC96EF0010B0DD /* PBXContainerItemProxy */;
+		};
+		ED2130B124AC96EF0010B0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED21308D24AC96EF0010B0DD /* ESense Application */;
+			targetProxy = ED2130B024AC96EF0010B0DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED21309724AC96EF0010B0DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED21309824AC96EF0010B0DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED21309C24AC96EF0010B0DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED21309D24AC96EF0010B0DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED2130B624AC96EF0010B0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED2130B724AC96EF0010B0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2130B924AC96EF0010B0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ESense Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.edu.nus.comp.smcnus.ESense-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED2130BA24AC96EF0010B0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ESense Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.edu.nus.comp.smcnus.ESense-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED2130BC24AC96EF0010B0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ESense ApplicationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.edu.nus.comp.smcnus.ESense-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESense Application.app/ESense Application";
+			};
+			name = Debug;
+		};
+		ED2130BD24AC96EF0010B0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ESense ApplicationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.edu.nus.comp.smcnus.ESense-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESense Application.app/ESense Application";
+			};
+			name = Release;
+		};
+		ED2130BF24AC96EF0010B0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ESense ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.edu.nus.comp.smcnus.ESense-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ESense Application";
+			};
+			name = Debug;
+		};
+		ED2130C024AC96EF0010B0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ESense ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.edu.nus.comp.smcnus.ESense-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ESense Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED21308924AC96EF0010B0DD /* Build configuration list for PBXProject "ESense Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2130B624AC96EF0010B0DD /* Debug */,
+				ED2130B724AC96EF0010B0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2130B824AC96EF0010B0DD /* Build configuration list for PBXNativeTarget "ESense Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2130B924AC96EF0010B0DD /* Debug */,
+				ED2130BA24AC96EF0010B0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2130BB24AC96EF0010B0DD /* Build configuration list for PBXNativeTarget "ESense ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2130BC24AC96EF0010B0DD /* Debug */,
+				ED2130BD24AC96EF0010B0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2130BE24AC96EF0010B0DD /* Build configuration list for PBXNativeTarget "ESense ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2130BF24AC96EF0010B0DD /* Debug */,
+				ED2130C024AC96EF0010B0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED21308624AC96EF0010B0DD /* Project object */;
+}
