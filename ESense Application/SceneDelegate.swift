@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  ESense Application
 //
-//  Created by 魏葳 on 1/7/20.
-//  Copyright © 2020 smcnus. All rights reserved.
+//  Created by Wei Wei on 1/7/20.
+//  Copyright © 2020 Wei Wei. All rights reserved.
 //
 
 import UIKit

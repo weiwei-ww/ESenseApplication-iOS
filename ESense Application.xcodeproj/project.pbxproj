@@ -9,12 +9,26 @@
 /* Begin PBXBuildFile section */
 		ED21309224AC96EF0010B0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21309124AC96EF0010B0DD /* AppDelegate.swift */; };
 		ED21309424AC96EF0010B0DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21309324AC96EF0010B0DD /* SceneDelegate.swift */; };
-		ED21309624AC96EF0010B0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21309524AC96EF0010B0DD /* ViewController.swift */; };
+		ED21309624AC96EF0010B0DD /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21309524AC96EF0010B0DD /* ScanViewController.swift */; };
 		ED21309924AC96EF0010B0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED21309724AC96EF0010B0DD /* Main.storyboard */; };
 		ED21309B24AC96EF0010B0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED21309A24AC96EF0010B0DD /* Assets.xcassets */; };
 		ED21309E24AC96EF0010B0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED21309C24AC96EF0010B0DD /* LaunchScreen.storyboard */; };
 		ED2130A924AC96EF0010B0DD /* ESense_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2130A824AC96EF0010B0DD /* ESense_ApplicationTests.swift */; };
 		ED2130B424AC96EF0010B0DD /* ESense_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2130B324AC96EF0010B0DD /* ESense_ApplicationUITests.swift */; };
+		ED4F825124AEFB600092208F /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4F825024AEFB600092208F /* AudioService.swift */; };
+		ED73BA8624ACA3F6003622B9 /* ScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA8524ACA3F6003622B9 /* ScanService.swift */; };
+		ED73BA8824ACAD96003622B9 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA8724ACAD96003622B9 /* ConnectViewController.swift */; };
+		ED73BA9824ACF9FC003622B9 /* ESenseSensorListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA9024ACF9FC003622B9 /* ESenseSensorListener.swift */; };
+		ED73BA9924ACF9FC003622B9 /* ESenseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA9124ACF9FC003622B9 /* ESenseConfig.swift */; };
+		ED73BA9A24ACF9FC003622B9 /* SamplingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA9224ACF9FC003622B9 /* SamplingStatus.swift */; };
+		ED73BA9B24ACF9FC003622B9 /* ESenseConnectionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA9324ACF9FC003622B9 /* ESenseConnectionListener.swift */; };
+		ED73BA9C24ACF9FC003622B9 /* ESenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA9424ACF9FC003622B9 /* ESenseManager.swift */; };
+		ED73BA9D24ACF9FC003622B9 /* ESenseEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA9524ACF9FC003622B9 /* ESenseEventListener.swift */; };
+		ED73BA9E24ACF9FC003622B9 /* ESenseScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA9624ACF9FC003622B9 /* ESenseScanner.swift */; };
+		ED73BA9F24ACF9FC003622B9 /* ESenseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BA9724ACF9FC003622B9 /* ESenseEvent.swift */; };
+		ED73BAA124ACFBB7003622B9 /* ConnectSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BAA024ACFBB7003622B9 /* ConnectSerivce.swift */; };
+		ED73BAA324AD959A003622B9 /* DataCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BAA224AD959A003622B9 /* DataCollectionViewController.swift */; };
+		ED73BAA524AD9A1E003622B9 /* ImuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73BAA424AD9A1E003622B9 /* ImuService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +52,7 @@
 		ED21308E24AC96EF0010B0DD /* ESense Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESense Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED21309124AC96EF0010B0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED21309324AC96EF0010B0DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED21309524AC96EF0010B0DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED21309524AC96EF0010B0DD /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		ED21309824AC96EF0010B0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED21309A24AC96EF0010B0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED21309D24AC96EF0010B0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,20 @@
 		ED2130AF24AC96EF0010B0DD /* ESense ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESense ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2130B324AC96EF0010B0DD /* ESense_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESense_ApplicationUITests.swift; sourceTree = "<group>"; };
 		ED2130B524AC96EF0010B0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4F825024AEFB600092208F /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		ED73BA8524ACA3F6003622B9 /* ScanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanService.swift; sourceTree = "<group>"; };
+		ED73BA8724ACAD96003622B9 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		ED73BA9024ACF9FC003622B9 /* ESenseSensorListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESenseSensorListener.swift; sourceTree = "<group>"; };
+		ED73BA9124ACF9FC003622B9 /* ESenseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESenseConfig.swift; sourceTree = "<group>"; };
+		ED73BA9224ACF9FC003622B9 /* SamplingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplingStatus.swift; sourceTree = "<group>"; };
+		ED73BA9324ACF9FC003622B9 /* ESenseConnectionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESenseConnectionListener.swift; sourceTree = "<group>"; };
+		ED73BA9424ACF9FC003622B9 /* ESenseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESenseManager.swift; sourceTree = "<group>"; };
+		ED73BA9524ACF9FC003622B9 /* ESenseEventListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESenseEventListener.swift; sourceTree = "<group>"; };
+		ED73BA9624ACF9FC003622B9 /* ESenseScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESenseScanner.swift; sourceTree = "<group>"; };
+		ED73BA9724ACF9FC003622B9 /* ESenseEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESenseEvent.swift; sourceTree = "<group>"; };
+		ED73BAA024ACFBB7003622B9 /* ConnectSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSerivce.swift; sourceTree = "<group>"; };
+		ED73BAA224AD959A003622B9 /* DataCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewController.swift; sourceTree = "<group>"; };
+		ED73BAA424AD9A1E003622B9 /* ImuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImuService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +127,11 @@
 		ED21309024AC96EF0010B0DD /* ESense Application */ = {
 			isa = PBXGroup;
 			children = (
+				ED73BA8D24ACF9C8003622B9 /* ESense */,
+				ED73BAA624ADD233003622B9 /* ViewControllers */,
+				ED73BA8424ACA3DC003622B9 /* Services */,
 				ED21309124AC96EF0010B0DD /* AppDelegate.swift */,
 				ED21309324AC96EF0010B0DD /* SceneDelegate.swift */,
-				ED21309524AC96EF0010B0DD /* ViewController.swift */,
 				ED21309724AC96EF0010B0DD /* Main.storyboard */,
 				ED21309A24AC96EF0010B0DD /* Assets.xcassets */,
 				ED21309C24AC96EF0010B0DD /* LaunchScreen.storyboard */,
@@ -126,6 +156,42 @@
 				ED2130B524AC96EF0010B0DD /* Info.plist */,
 			);
 			path = "ESense ApplicationUITests";
+			sourceTree = "<group>";
+		};
+		ED73BA8424ACA3DC003622B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED73BA8524ACA3F6003622B9 /* ScanService.swift */,
+				ED73BAA024ACFBB7003622B9 /* ConnectSerivce.swift */,
+				ED73BAA424AD9A1E003622B9 /* ImuService.swift */,
+				ED4F825024AEFB600092208F /* AudioService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED73BA8D24ACF9C8003622B9 /* ESense */ = {
+			isa = PBXGroup;
+			children = (
+				ED73BA9124ACF9FC003622B9 /* ESenseConfig.swift */,
+				ED73BA9324ACF9FC003622B9 /* ESenseConnectionListener.swift */,
+				ED73BA9724ACF9FC003622B9 /* ESenseEvent.swift */,
+				ED73BA9524ACF9FC003622B9 /* ESenseEventListener.swift */,
+				ED73BA9424ACF9FC003622B9 /* ESenseManager.swift */,
+				ED73BA9624ACF9FC003622B9 /* ESenseScanner.swift */,
+				ED73BA9024ACF9FC003622B9 /* ESenseSensorListener.swift */,
+				ED73BA9224ACF9FC003622B9 /* SamplingStatus.swift */,
+			);
+			path = ESense;
+			sourceTree = "<group>";
+		};
+		ED73BAA624ADD233003622B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED21309524AC96EF0010B0DD /* ScanViewController.swift */,
+				ED73BA8724ACAD96003622B9 /* ConnectViewController.swift */,
+				ED73BAA224AD959A003622B9 /* DataCollectionViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +258,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = smcnus;
+				ORGANIZATIONNAME = "Wei Wei";
 				TargetAttributes = {
 					ED21308D24AC96EF0010B0DD = {
 						CreatedOnToolsVersion = 11.5;
@@ -259,9 +325,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED21309624AC96EF0010B0DD /* ViewController.swift in Sources */,
+				ED73BAA124ACFBB7003622B9 /* ConnectSerivce.swift in Sources */,
+				ED73BA8824ACAD96003622B9 /* ConnectViewController.swift in Sources */,
+				ED73BA9924ACF9FC003622B9 /* ESenseConfig.swift in Sources */,
+				ED21309624AC96EF0010B0DD /* ScanViewController.swift in Sources */,
+				ED73BA9F24ACF9FC003622B9 /* ESenseEvent.swift in Sources */,
+				ED73BA9824ACF9FC003622B9 /* ESenseSensorListener.swift in Sources */,
 				ED21309224AC96EF0010B0DD /* AppDelegate.swift in Sources */,
+				ED73BAA524AD9A1E003622B9 /* ImuService.swift in Sources */,
+				ED73BA9B24ACF9FC003622B9 /* ESenseConnectionListener.swift in Sources */,
+				ED73BA9C24ACF9FC003622B9 /* ESenseManager.swift in Sources */,
+				ED73BAA324AD959A003622B9 /* DataCollectionViewController.swift in Sources */,
+				ED73BA8624ACA3F6003622B9 /* ScanService.swift in Sources */,
+				ED73BA9A24ACF9FC003622B9 /* SamplingStatus.swift in Sources */,
 				ED21309424AC96EF0010B0DD /* SceneDelegate.swift in Sources */,
+				ED73BA9D24ACF9FC003622B9 /* ESenseEventListener.swift in Sources */,
+				ED4F825124AEFB600092208F /* AudioService.swift in Sources */,
+				ED73BA9E24ACF9FC003622B9 /* ESenseScanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZA44FH58LD;
 				INFOPLIST_FILE = "ESense Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZA44FH58LD;
 				INFOPLIST_FILE = "ESense Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
